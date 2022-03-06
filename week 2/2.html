@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="registration" content="registration">
+    <meta name="author" content="ivan ramanovich">
+    <title>Регистрация</title>
+</head>
+
+<body>
+    <p>Введите ФИО в полях ниже: <br />
+        <label for="Имя">Имя</label>
+        <input type="text" id="Имя" accesskey="f" tabindex="1" /><br />
+        <label for="Фамилия">Фамилия</label>
+        <input type="text" id="Фамилия" accesskey="f" tabindex="2" /><br />
+        <label for="Отчество">Отчество</label>
+        <input type="text" id="Отчество" accesskey="f" tabindex="3" /><br />
+        Город:
+        <select>
+            <option value="Paris">Париж</option>
+            <option value="France">Франция</option>
+            <option value="Belarus">Беларусь</option>
+        </select>
+    </p>
+    <p>
+        <label for="пол">Укажите Ваш пол:</label><br />
+        <input type="radio" name="s" value="m" id="пол" /> Мужской<br />
+        <input type="radio" name="s" value="f" id="пол" /> Женский
+    </p>
+    <div>
+        <label for="качества"> Укажите ваши хорошие качества:</label><br />
+        <input type="checkbox" id="качества" value="1" />
+        хороший<br />
+        <input type="checkbox" id="качества" value=" 2" />
+        добрый <br />
+        <input type="checkbox" id="качества" value="3" />
+        заботливый <br />
+    </div>
+    <div>
+        <label for="комментарии">комментарии</label><br />
+        <textarea rows="5" cols="20" id="комментарии"></textarea>
+    </div>
+    <input type="file" name="картинка" />
+
+    <input type="submit" value="Ого. Надпись на кнопке" />
+    <button>Зарегестрироваться</button>
+</body>
+
+</html>
